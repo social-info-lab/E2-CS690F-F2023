@@ -4,6 +4,7 @@ import re
 import nltk
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
+import argparse
 
 def remove_punct(text):
     text  = "".join([char for char in text if char not in string.punctuation])
@@ -39,13 +40,15 @@ def top_k_features(x, k=100):
     top_k = x.sum().sort_values(ascending=False)[:k]
     return x[top_k.axes[0]]
 
-def transform_dataset():
+def transform_dataset(unlabeled_rows, top_k_words):
     # Read in the data
     df_s = pd.read_csv("datasets/vote-query-stephen.csv")
     # rename the label column
     df_s = df_s.rename(columns={"relvant (1 == yes)": "relevant"})
     # Read in the first 10k lines    
-    df_big = pd.read_csv("datasets/decahose_polls_2021-08.csv", nrows=10000)
+    df_big = pd.read_csv("datasets/decahose_polls_2021-08.csv", nrows=unlabeled_rows)
+    # filter to get only unrelevant polls from the unlabeled dataset
+    df_big[df_big["relevant"]==0]
     # merge the rows of the two datasets
     df = pd.concat([df_s, df_big], ignore_index=True)
 
@@ -58,16 +61,23 @@ def transform_dataset():
     df['text'] = df['text'].apply(lambda x: lemmatizer(x))
     df['text'] = df['text'].apply(lambda x: sentence(x))
 
-    # Apply tfidf to the text and 
+    # Apply tfidf to the text 
     df_tfidf = tfidf(df['text'])
     # get the top k words with the highest tfidf sum as features 
-    df_top = top_k_features(df_tfidf)
+    df_top = top_k_features(df_tfidf, k=top_k_words)
     # binarize
     df_top[df_top > 0] = 1
     # Add the label column
     df_top['label'] = df["relevant"]
     # Save the dataframe
-    df_top.to_csv("datasets/polls-13k.csv", index=False)
+    df_top.to_csv("datasets/polls-50k.csv", index=False)
 
 if __name__ == "__main__":
-    transform_dataset()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--rows", type=int, default=50000, help="Number of rows to read from the unlabeled dataset")
+    parser.add_argument("--top_k", type=int, default=2000, help="Number of top k words to use as features")
+    args = parser.parse_args()
+    rows = args.rows
+    top_k = args.top_k
+
+    transform_dataset(rows, top_k)
