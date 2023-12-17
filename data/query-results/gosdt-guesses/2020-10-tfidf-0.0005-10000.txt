@@ -1,0 +1,56 @@
+Query: election day AND large AND !poll AND !vote for AND vote right AND voting for AND wave AND win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: election day AND !large AND vote right AND voting for AND wave AND win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: election day AND vote right AND !voting for AND wave AND win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: election day AND !vote right AND wave AND win
+Accuracy: 0.927277953434895
+F1: 0.05065666041275797
+Precision: 1.0
+Recall: 0.02598652550529355
+Confusion Matrix: 
+[[12877     0]
+ [ 1012    27]]
+Query: election day AND !president AND wave AND !win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: election day AND !wave
+Accuracy: 0.9254814601897097
+F1: 0.005752636625119847
+Precision: 0.75
+Recall: 0.0028873917228103944
+Confusion Matrix: 
+[[12876     1]
+ [ 1036     3]]
+Query: !election day
+Accuracy: 0.07257832710549009
+F1: 0.1352184400964889
+Precision: 0.07266834713719841
+Recall: 0.971126082771896
+Confusion Matrix: 
+[[    1 12876]
+ [   30  1009]]

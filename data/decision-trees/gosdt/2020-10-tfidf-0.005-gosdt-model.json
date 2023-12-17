@@ -1,0 +1,34 @@
+[
+  {
+    "false": {
+      "false": {
+        "complexity": 0.004999999888241291,
+        "loss": 0.03664921596646309,
+        "name": "class",
+        "prediction": 0
+      },
+      "feature": 15,
+      "name": "voting",
+      "reference": "True",
+      "relation": "==",
+      "true": {
+        "complexity": 0.004999999888241291,
+        "loss": 0.011549122631549835,
+        "name": "class",
+        "prediction": 1
+      },
+      "type": "categorical"
+    },
+    "feature": 9,
+    "name": "november",
+    "reference": "True",
+    "relation": "==",
+    "true": {
+      "complexity": 0.004999999888241291,
+      "loss": 0.0011292474810034037,
+      "name": "class",
+      "prediction": 1
+    },
+    "type": "categorical"
+  }
+]

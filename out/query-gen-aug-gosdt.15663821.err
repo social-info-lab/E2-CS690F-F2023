@@ -1,0 +1,10 @@
+Removing miniconda version 22.11.1-1
+Loading miniconda version 22.11.1-1
+Traceback (most recent call last):
+  File "query_gen_scripts/boolean_generation_gosdt.py", line 115, in <module>
+    main()
+  File "query_gen_scripts/boolean_generation_gosdt.py", line 59, in main
+    input_arrs = convert_docs_to_input(attr_list, corpus_train)
+  File "/work/pi_pgrabowicz_umass_edu/awyuan/BEUSDT/query_gen_scripts/boolean_generation.py", line 38, in convert_docs_to_input
+    input_arr = np.zeros((len(corpus), len(attr_list)))
+numpy.core._exceptions.MemoryError: Unable to allocate 2.75 TiB for an array with shape (669386, 565533) and data type float64

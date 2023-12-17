@@ -1,0 +1,151 @@
+[
+  {
+    "false": {
+      "false": {
+        "complexity": 9.999999747378752e-05,
+        "loss": 0.0022584176622331142,
+        "name": "class",
+        "prediction": 1
+      },
+      "feature": 14,
+      "name": "wh<=0.5",
+      "reference": 1,
+      "relation": "==",
+      "true": {
+        "complexity": 9.999999747378752e-05,
+        "loss": 0.001745140994898975,
+        "name": "class",
+        "prediction": 0
+      },
+      "type": "integral"
+    },
+    "feature": 0,
+    "name": "biden<=0.5",
+    "reference": 1,
+    "relation": "==",
+    "true": {
+      "false": {
+        "complexity": 9.999999747378752e-05,
+        "loss": 0.0004106214037165046,
+        "name": "class",
+        "prediction": 1
+      },
+      "feature": 13,
+      "name": "three<=0.5",
+      "reference": 1,
+      "relation": "==",
+      "true": {
+        "false": {
+          "false": {
+            "complexity": 9.999999747378752e-05,
+            "loss": 3.4218450309708714e-05,
+            "name": "class",
+            "prediction": 1
+          },
+          "feature": 9,
+          "name": "comment<=0.5",
+          "reference": 1,
+          "relation": "==",
+          "true": {
+            "complexity": 9.999999747378752e-05,
+            "loss": 0.0018820147961378098,
+            "name": "class",
+            "prediction": 0
+          },
+          "type": "integral"
+        },
+        "feature": 10,
+        "name": "state<=0.5",
+        "reference": 1,
+        "relation": "==",
+        "true": {
+          "false": {
+            "complexity": 9.999999747378752e-05,
+            "loss": 0.0,
+            "name": "class",
+            "prediction": 1
+          },
+          "feature": 11,
+          "name": "bluewave2020<=0.5",
+          "reference": 1,
+          "relation": "==",
+          "true": {
+            "false": {
+              "false": {
+                "complexity": 9.999999747378752e-05,
+                "loss": 0.0,
+                "name": "class",
+                "prediction": 1
+              },
+              "feature": 8,
+              "name": "3rd<=0.5",
+              "reference": 1,
+              "relation": "==",
+              "true": {
+                "complexity": 9.999999747378752e-05,
+                "loss": 0.004174651112407446,
+                "name": "class",
+                "prediction": 0
+              },
+              "type": "integral"
+            },
+            "feature": 7,
+            "name": "please<=0.5",
+            "reference": 1,
+            "relation": "==",
+            "true": {
+              "false": {
+                "false": {
+                  "complexity": 9.999999747378752e-05,
+                  "loss": 0.0014713933924213052,
+                  "name": "class",
+                  "prediction": 1
+                },
+                "feature": 14,
+                "name": "wh<=0.5",
+                "reference": 1,
+                "relation": "==",
+                "true": {
+                  "complexity": 9.999999747378752e-05,
+                  "loss": 0.0018477963749319315,
+                  "name": "class",
+                  "prediction": 0
+                },
+                "type": "integral"
+              },
+              "feature": 5,
+              "name": "voting<=0.5",
+              "reference": 1,
+              "relation": "==",
+              "true": {
+                "false": {
+                  "complexity": 9.999999747378752e-05,
+                  "loss": 0.000650150584988296,
+                  "name": "class",
+                  "prediction": 1
+                },
+                "feature": 15,
+                "name": "large<=0.5",
+                "reference": 1,
+                "relation": "==",
+                "true": {
+                  "complexity": 9.999999747378752e-05,
+                  "loss": 0.023713385686278343,
+                  "name": "class",
+                  "prediction": 0
+                },
+                "type": "integral"
+              },
+              "type": "integral"
+            },
+            "type": "integral"
+          },
+          "type": "integral"
+        },
+        "type": "integral"
+      },
+      "type": "integral"
+    },
+    "type": "integral"
+  }
+]

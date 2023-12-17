@@ -1,0 +1,20 @@
+Query: 3rd AND !election AND president
+Accuracy: 0.9254401724757456
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Query: 3rd AND poll AND !president AND !voting
+Accuracy: 0.9250808480057492
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Query: 3rd AND !poll AND !president
+Accuracy: 0.9247215235357528
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Query: !3rd AND !please
+Accuracy: 0.07887172116421129
+F1: 0.11282228759300918
+Precision: 0.06077554064131245
+Recall: 0.7855421686746988

@@ -1,0 +1,45 @@
+Training set size: 
+  rows:22936, cols:200
+Memory size train set: 
+  dense: 36.697728 mb
+  Sparse: 0.390393 mb
+
+model.config:
+ {'regularization': 0.0002, 'depth_budget': 4, 'time_limit': 900, 'uncertainty_tolerance': 0.2, 'worker_limit': 1, 'stack_limit': 0, 'verbose': False, 'diagnostics': True, 'model': './data/decision-trees/2020-10-tfidf-50000-gosdt-model.json', 'tree': './data/decision-trees/2020-10-tfidf-50000-gosdt-tree.txt', 'trace': './data/decision-trees/2020-10-tfidf-50000-gosdt-trace.txt', 'profile': './data/decision-trees/2020-10-tfidf-50000-gosdt-profile.txt'}
+
+model.tree:
+ if 2020 = True and biden = True and rt = True then:
+    predicted class: 1
+    misclassification penalty: 0.004
+    complexity penalty: 0.0
+
+else if 2020 != True and biden = True and rt = True then:
+    predicted class: 0
+    misclassification penalty: 0.004
+    complexity penalty: 0.0
+
+else if biden = True and rt != True and voters = True then:
+    predicted class: 0
+    misclassification penalty: 0.0
+    complexity penalty: 0.0
+
+else if biden = True and rt != True and voters != True then:
+    predicted class: 1
+    misclassification penalty: 0.021
+    complexity penalty: 0.0
+
+else if biden != True and clinton = True and trump = True then:
+    predicted class: 1
+    misclassification penalty: 0.004
+    complexity penalty: 0.0
+
+else if biden != True and clinton != True and trump = True then:
+    predicted class: 0
+    misclassification penalty: 0.002
+    complexity penalty: 0.0
+
+else if biden != True and trump != True then:
+    predicted class: 0
+    misclassification penalty: 0.0
+    complexity penalty: 0.0
+ 

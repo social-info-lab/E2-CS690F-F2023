@@ -1,0 +1,80 @@
+Query: president AND vote for AND vote right AND !voting for AND wh
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: president AND vote for AND vote right AND !voting AND !wh AND win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: !election AND president AND vote for AND vote right AND !wh AND !win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: president AND vote for AND !vote right
+Accuracy: 0.9254096004599023
+F1: 0.007648183556405354
+Precision: 0.5714285714285714
+Recall: 0.0038498556304138597
+Confusion Matrix: 
+[[12874     3]
+ [ 1035     4]]
+Query: president AND !vote for AND !wh
+Accuracy: 0.9155648174762863
+F1: 0.03292181069958847
+Precision: 0.11363636363636363
+Recall: 0.019249278152069296
+Confusion Matrix: 
+[[12721   156]
+ [ 1019    20]]
+Query: election AND large AND please rt AND !president AND vote for AND !voting for
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: !election AND large AND please rt AND !president AND vote for AND !wh
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: large AND please rt AND !president AND !vote for
+Accuracy: 0.9252658810002874
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12876     1]
+ [ 1039     0]]
+Query: large AND !please rt AND !president
+Accuracy: 0.9239005461339466
+F1: 0.027548209366391185
+Precision: 0.3
+Recall: 0.014436958614051972
+Confusion Matrix: 
+[[12842    35]
+ [ 1024    15]]
+Query: !large AND !president
+Accuracy: 0.0726501868352975
+F1: 0.10722933241093048
+Precision: 0.05776684555754323
+Recall: 0.7459095283926853
+Confusion Matrix: 
+[[  236 12641]
+ [  264   775]]

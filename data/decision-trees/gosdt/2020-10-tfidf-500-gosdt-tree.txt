@@ -1,0 +1,29 @@
+Training set size: 
+  rows:3458, cols:200
+Memory size train set: 
+  dense: 5.532928 mb
+  Sparse: 0.075993 mb
+
+model.config:
+ {'regularization': 0.002, 'depth_budget': 6, 'time_limit': 1800, 'uncertainty_tolerance': 0.2, 'worker_limit': 1, 'stack_limit': 0, 'verbose': True, 'diagnostics': True, 'model': './data/decision-trees/gosdt/2020-10-tfidf-500-gosdt-model.json', 'profile': './data/decision-trees/gosdt/2020-10-tfidf-500-gosdt-profile.csv'}
+
+model.tree:
+ if fbi = True and trump = True then:
+    predicted class: 0
+    misclassification penalty: 0.001
+    complexity penalty: 0.002
+
+else if fbi != True and trump = True then:
+    predicted class: 1
+    misclassification penalty: 0.05
+    complexity penalty: 0.002
+
+else if rt = True and trump != True then:
+    predicted class: 0
+    misclassification penalty: 0.036
+    complexity penalty: 0.002
+
+else if rt != True and trump != True then:
+    predicted class: 1
+    misclassification penalty: 0.243
+    complexity penalty: 0.002

@@ -1,0 +1,56 @@
+Query: biden AND bluewave2020 AND !large AND please AND state AND three AND voting
+Accuracy: 0.9253802850640795
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[7726    0]
+ [ 623    0]]
+Query: biden AND bluewave2020 AND please AND state AND three AND !voting AND !wh
+Accuracy: 0.9253802850640795
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[7726    0]
+ [ 623    0]]
+Query: !3rd AND biden AND bluewave2020 AND !please AND state AND three
+Accuracy: 0.9253802850640795
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[7726    0]
+ [ 623    0]]
+Query: biden AND !bluewave2020 AND state AND three
+Accuracy: 0.9253802850640795
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[7726    0]
+ [ 623    0]]
+Query: biden AND !comment AND !state AND three
+Accuracy: 0.9253802850640795
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[7726    0]
+ [ 623    0]]
+Query: biden AND !three
+Accuracy: 0.9229847885974368
+F1: 0.18504435994930293
+Precision: 0.4397590361445783
+Recall: 0.11717495987158909
+Confusion Matrix: 
+[[7633   93]
+ [ 550   73]]
+Query: !biden AND !wh
+Accuracy: 0.1656485806683435
+F1: 0.026823134953897737
+Precision: 0.014690130068859985
+Recall: 0.15409309791332262
+Confusion Matrix: 
+[[1287 6439]
+ [ 527   96]]

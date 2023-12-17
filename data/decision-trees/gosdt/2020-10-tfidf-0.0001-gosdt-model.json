@@ -1,0 +1,47 @@
+[
+  {
+    "false": {
+      "false": {
+        "complexity": 9.999999747378752e-05,
+        "loss": 0.033723436295986176,
+        "name": "class",
+        "prediction": 0
+      },
+      "feature": 15,
+      "name": "voting",
+      "reference": "True",
+      "relation": "==",
+      "true": {
+        "complexity": 9.999999747378752e-05,
+        "loss": 0.007134790997952223,
+        "name": "class",
+        "prediction": 1
+      },
+      "type": "categorical"
+    },
+    "feature": 0,
+    "name": "trump",
+    "reference": "True",
+    "relation": "==",
+    "true": {
+      "false": {
+        "complexity": 9.999999747378752e-05,
+        "loss": 0.005132943391799927,
+        "name": "class",
+        "prediction": 0
+      },
+      "feature": 43,
+      "name": "2020",
+      "reference": "True",
+      "relation": "==",
+      "true": {
+        "complexity": 9.999999747378752e-05,
+        "loss": 0.00035930602462030947,
+        "name": "class",
+        "prediction": 1
+      },
+      "type": "categorical"
+    },
+    "type": "categorical"
+  }
+]

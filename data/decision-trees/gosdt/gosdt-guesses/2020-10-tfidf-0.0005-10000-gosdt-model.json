@@ -1,0 +1,125 @@
+[
+  {
+    "false": {
+      "complexity": 0.0005000000237487257,
+      "loss": 0.00026689658989198506,
+      "name": "class",
+      "prediction": 1
+    },
+    "feature": 13,
+    "name": "election day<=0.5",
+    "reference": 1,
+    "relation": "==",
+    "true": {
+      "false": {
+        "complexity": 0.0005000000237487257,
+        "loss": 0.0006775067304261029,
+        "name": "class",
+        "prediction": 1
+      },
+      "feature": 10,
+      "name": "wave<=0.5",
+      "reference": 1,
+      "relation": "==",
+      "true": {
+        "false": {
+          "false": {
+            "complexity": 0.0005000000237487257,
+            "loss": 0.0007185677532106638,
+            "name": "class",
+            "prediction": 1
+          },
+          "feature": 0,
+          "name": "president<=0.5",
+          "reference": 1,
+          "relation": "==",
+          "true": {
+            "complexity": 0.0005000000237487257,
+            "loss": 0.004167693201452494,
+            "name": "class",
+            "prediction": 0
+          },
+          "type": "integral"
+        },
+        "feature": 4,
+        "name": "win<=0.5",
+        "reference": 1,
+        "relation": "==",
+        "true": {
+          "false": {
+            "complexity": 0.0005000000237487257,
+            "loss": 0.0,
+            "name": "class",
+            "prediction": 1
+          },
+          "feature": 14,
+          "name": "vote right<=0.5",
+          "reference": 1,
+          "relation": "==",
+          "true": {
+            "false": {
+              "complexity": 0.0005000000237487257,
+              "loss": 0.001745093148201704,
+              "name": "class",
+              "prediction": 1
+            },
+            "feature": 12,
+            "name": "voting for<=0.5",
+            "reference": 1,
+            "relation": "==",
+            "true": {
+              "false": {
+                "complexity": 0.0005000000237487257,
+                "loss": 0.001170238945633173,
+                "name": "class",
+                "prediction": 1
+              },
+              "feature": 16,
+              "name": "large<=0.5",
+              "reference": 1,
+              "relation": "==",
+              "true": {
+                "false": {
+                  "false": {
+                    "complexity": 0.0005000000237487257,
+                    "loss": 0.00036954914685338736,
+                    "name": "class",
+                    "prediction": 1
+                  },
+                  "feature": 11,
+                  "name": "vote for<=0.5",
+                  "reference": 1,
+                  "relation": "==",
+                  "true": {
+                    "complexity": 0.0005000000237487257,
+                    "loss": 0.0068982504308223724,
+                    "name": "class",
+                    "prediction": 0
+                  },
+                  "type": "integral"
+                },
+                "feature": 2,
+                "name": "poll<=0.5",
+                "reference": 1,
+                "relation": "==",
+                "true": {
+                  "complexity": 0.0005000000237487257,
+                  "loss": 0.01706085167825222,
+                  "name": "class",
+                  "prediction": 0
+                },
+                "type": "integral"
+              },
+              "type": "integral"
+            },
+            "type": "integral"
+          },
+          "type": "integral"
+        },
+        "type": "integral"
+      },
+      "type": "integral"
+    },
+    "type": "integral"
+  }
+]

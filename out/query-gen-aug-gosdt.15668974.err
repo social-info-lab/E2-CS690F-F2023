@@ -1,0 +1,4 @@
+Removing miniconda version 22.11.1-1
+Loading miniconda version 22.11.1-1
+/var/spool/slurm/slurmd/job15668974/slurm_script: line 11: 1545363 Killed                  python query_gen_scripts/boolean_generation_gosdt.py
+slurmstepd-cpu007: error: Detected 1 oom_kill event in StepId=15668974.batch. Some of the step tasks have been OOM Killed.

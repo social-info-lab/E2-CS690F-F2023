@@ -1,0 +1,47 @@
+[
+  {
+    "false": {
+      "false": {
+        "complexity": 0.0020000000949949026,
+        "loss": 0.24320417642593384,
+        "name": "class",
+        "prediction": 1
+      },
+      "feature": 37,
+      "name": "rt",
+      "reference": "True",
+      "relation": "==",
+      "true": {
+        "complexity": 0.0020000000949949026,
+        "loss": 0.036437246948480606,
+        "name": "class",
+        "prediction": 0
+      },
+      "type": "categorical"
+    },
+    "feature": 0,
+    "name": "trump",
+    "reference": "True",
+    "relation": "==",
+    "true": {
+      "false": {
+        "complexity": 0.0020000000949949026,
+        "loss": 0.05002892017364502,
+        "name": "class",
+        "prediction": 1
+      },
+      "feature": 70,
+      "name": "fbi",
+      "reference": "True",
+      "relation": "==",
+      "true": {
+        "complexity": 0.0020000000949949026,
+        "loss": 0.0008675535209476948,
+        "name": "class",
+        "prediction": 0
+      },
+      "type": "categorical"
+    },
+    "type": "categorical"
+  }
+]

@@ -1,0 +1,1 @@
+[["2020", "trump", ["Relevant", [[0.0, 0.0]]]], ["!2020", "trump", ["Not Relevant", [[0.0, 0.0]]]], ["!trump", "voting", ["Relevant", [[0.0, 0.0]]]], ["!trump", "!voting", ["Not Relevant", [[0.0, 0.0]]]]]

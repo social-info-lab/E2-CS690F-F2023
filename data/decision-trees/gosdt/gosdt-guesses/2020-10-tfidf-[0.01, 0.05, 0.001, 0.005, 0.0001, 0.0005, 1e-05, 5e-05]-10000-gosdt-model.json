@@ -1,0 +1,203 @@
+[
+  {
+    "false": {
+      "false": {
+        "complexity": 4.999999873689376e-05,
+        "loss": 0.0,
+        "name": "class",
+        "prediction": 1
+      },
+      "feature": 16,
+      "name": "large<=0.5",
+      "reference": 1,
+      "relation": "==",
+      "true": {
+        "false": {
+          "complexity": 4.999999873689376e-05,
+          "loss": 2.0530507754301652e-05,
+          "name": "class",
+          "prediction": 1
+        },
+        "feature": 15,
+        "name": "please rt<=0.5",
+        "reference": 1,
+        "relation": "==",
+        "true": {
+          "false": {
+            "complexity": 4.999999873689376e-05,
+            "loss": 0.00016424406203441322,
+            "name": "class",
+            "prediction": 1
+          },
+          "feature": 11,
+          "name": "vote for<=0.5",
+          "reference": 1,
+          "relation": "==",
+          "true": {
+            "false": {
+              "false": {
+                "complexity": 4.999999873689376e-05,
+                "loss": 0.00026689658989198506,
+                "name": "class",
+                "prediction": 1
+              },
+              "feature": 8,
+              "name": "wh<=0.5",
+              "reference": 1,
+              "relation": "==",
+              "true": {
+                "complexity": 4.999999873689376e-05,
+                "loss": 0.00020530508481897414,
+                "name": "class",
+                "prediction": 0
+              },
+              "type": "integral"
+            },
+            "feature": 1,
+            "name": "election<=0.5",
+            "reference": 1,
+            "relation": "==",
+            "true": {
+              "false": {
+                "complexity": 4.999999873689376e-05,
+                "loss": 0.0,
+                "name": "class",
+                "prediction": 1
+              },
+              "feature": 12,
+              "name": "voting for<=0.5",
+              "reference": 1,
+              "relation": "==",
+              "true": {
+                "complexity": 4.999999873689376e-05,
+                "loss": 0.0031616981141269207,
+                "name": "class",
+                "prediction": 0
+              },
+              "type": "integral"
+            },
+            "type": "integral"
+          },
+          "type": "integral"
+        },
+        "type": "integral"
+      },
+      "type": "integral"
+    },
+    "feature": 0,
+    "name": "president<=0.5",
+    "reference": 1,
+    "relation": "==",
+    "true": {
+      "false": {
+        "false": {
+          "complexity": 4.999999873689376e-05,
+          "loss": 0.0014781965874135494,
+          "name": "class",
+          "prediction": 1
+        },
+        "feature": 8,
+        "name": "wh<=0.5",
+        "reference": 1,
+        "relation": "==",
+        "true": {
+          "complexity": 4.999999873689376e-05,
+          "loss": 0.0006364457658492029,
+          "name": "class",
+          "prediction": 0
+        },
+        "type": "integral"
+      },
+      "feature": 11,
+      "name": "vote for<=0.5",
+      "reference": 1,
+      "relation": "==",
+      "true": {
+        "false": {
+          "complexity": 4.999999873689376e-05,
+          "loss": 0.0,
+          "name": "class",
+          "prediction": 1
+        },
+        "feature": 14,
+        "name": "vote right<=0.5",
+        "reference": 1,
+        "relation": "==",
+        "true": {
+          "false": {
+            "false": {
+              "false": {
+                "complexity": 4.999999873689376e-05,
+                "loss": 0.001190769486129284,
+                "name": "class",
+                "prediction": 1
+              },
+              "feature": 1,
+              "name": "election<=0.5",
+              "reference": 1,
+              "relation": "==",
+              "true": {
+                "complexity": 4.999999873689376e-05,
+                "loss": 0.0013960745418444276,
+                "name": "class",
+                "prediction": 0
+              },
+              "type": "integral"
+            },
+            "feature": 4,
+            "name": "win<=0.5",
+            "reference": 1,
+            "relation": "==",
+            "true": {
+              "false": {
+                "complexity": 4.999999873689376e-05,
+                "loss": 0.0020325202494859695,
+                "name": "class",
+                "prediction": 1
+              },
+              "feature": 5,
+              "name": "voting<=0.5",
+              "reference": 1,
+              "relation": "==",
+              "true": {
+                "complexity": 4.999999873689376e-05,
+                "loss": 0.013550135307013988,
+                "name": "class",
+                "prediction": 0
+              },
+              "type": "integral"
+            },
+            "type": "integral"
+          },
+          "feature": 8,
+          "name": "wh<=0.5",
+          "reference": 1,
+          "relation": "==",
+          "true": {
+            "false": {
+              "complexity": 4.999999873689376e-05,
+              "loss": 0.000554323720280081,
+              "name": "class",
+              "prediction": 1
+            },
+            "feature": 12,
+            "name": "voting for<=0.5",
+            "reference": 1,
+            "relation": "==",
+            "true": {
+              "complexity": 4.999999873689376e-05,
+              "loss": 0.007185677532106638,
+              "name": "class",
+              "prediction": 0
+            },
+            "type": "integral"
+          },
+          "type": "integral"
+        },
+        "type": "integral"
+      },
+      "type": "integral"
+    },
+    "type": "integral"
+  }
+]

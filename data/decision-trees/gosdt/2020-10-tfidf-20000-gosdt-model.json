@@ -1,0 +1,34 @@
+[
+  {
+    "false": {
+      "complexity": 0.004999999888241291,
+      "loss": 0.0004359958111308515,
+      "name": "class",
+      "prediction": 0
+    },
+    "feature": 0,
+    "name": "trump",
+    "reference": "True",
+    "relation": "==",
+    "true": {
+      "false": {
+        "complexity": 0.004999999888241291,
+        "loss": 0.00039239623583853245,
+        "name": "class",
+        "prediction": 0
+      },
+      "feature": 1,
+      "name": "vote",
+      "reference": "True",
+      "relation": "==",
+      "true": {
+        "complexity": 0.004999999888241291,
+        "loss": 0.042509593069553375,
+        "name": "class",
+        "prediction": 1
+      },
+      "type": "categorical"
+    },
+    "type": "categorical"
+  }
+]

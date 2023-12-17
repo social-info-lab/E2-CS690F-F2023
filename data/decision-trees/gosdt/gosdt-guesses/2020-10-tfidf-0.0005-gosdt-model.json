@@ -1,0 +1,86 @@
+[
+  {
+    "false": {
+      "false": {
+        "complexity": 0.0005000000237487257,
+        "loss": 0.0,
+        "name": "class",
+        "prediction": 1
+      },
+      "feature": 6,
+      "name": "please<=0.5",
+      "reference": 1,
+      "relation": "==",
+      "true": {
+        "complexity": 0.0005000000237487257,
+        "loss": 0.0002053177304333076,
+        "name": "class",
+        "prediction": 0
+      },
+      "type": "integral"
+    },
+    "feature": 8,
+    "name": "3rd<=0.5",
+    "reference": 1,
+    "relation": "==",
+    "true": {
+      "false": {
+        "false": {
+          "complexity": 0.0005000000237487257,
+          "loss": 0.0008212709217332304,
+          "name": "class",
+          "prediction": 1
+        },
+        "feature": 4,
+        "name": "poll<=0.5",
+        "reference": 1,
+        "relation": "==",
+        "true": {
+          "false": {
+            "complexity": 0.0005000000237487257,
+            "loss": 0.0,
+            "name": "class",
+            "prediction": 1
+          },
+          "feature": 5,
+          "name": "voting<=0.5",
+          "reference": 1,
+          "relation": "==",
+          "true": {
+            "complexity": 0.0005000000237487257,
+            "loss": 0.0027204598300158978,
+            "name": "class",
+            "prediction": 0
+          },
+          "type": "integral"
+        },
+        "type": "integral"
+      },
+      "feature": 1,
+      "name": "president<=0.5",
+      "reference": 1,
+      "relation": "==",
+      "true": {
+        "false": {
+          "complexity": 0.0005000000237487257,
+          "loss": 0.006108202505856752,
+          "name": "class",
+          "prediction": 1
+        },
+        "feature": 2,
+        "name": "election<=0.5",
+        "reference": 1,
+        "relation": "==",
+        "true": {
+          "complexity": 0.0005000000237487257,
+          "loss": 0.03100297786295414,
+          "name": "class",
+          "prediction": 0
+        },
+        "type": "integral"
+      },
+      "type": "integral"
+    },
+    "type": "integral"
+  }
+]

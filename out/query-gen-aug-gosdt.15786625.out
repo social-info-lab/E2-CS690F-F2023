@@ -1,0 +1,3056 @@
+Using configuration: {
+  "allow_small_reg": false,
+  "balance": false,
+  "cancellation": true,
+  "continuous_feature_exchange": false,
+  "costs": "",
+  "depth_budget": 4,
+  "diagnostics": true,
+  "feature_exchange": false,
+  "feature_transform": true,
+  "look_ahead": true,
+  "model": "./data/decision-trees/2020-10-tfidf-50000-gosdt-model.json",
+  "model_limit": 1,
+  "non_binary": false,
+  "path_to_labels": "",
+  "precision_limit": 0,
+  "profile": "./data/decision-trees/2020-10-tfidf-50000-gosdt-profile.txt",
+  "reference_LB": false,
+  "regularization": 0.05000000074505806,
+  "rule_list": false,
+  "similar_support": true,
+  "stack_limit": 0,
+  "time_limit": 7200,
+  "timing": "",
+  "trace": "./data/decision-trees/2020-10-tfidf-50000-gosdt-trace.txt",
+  "tree": "./data/decision-trees/2020-10-tfidf-50000-gosdt-tree.txt",
+  "uncertainty_tolerance": 0.20000000298023224,
+  "upperbound": 0.0,
+  "verbose": true,
+  "worker_limit": 1
+}
+Initializing Optimization Framework
+Feature Index: 0, Feature Name: trump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1, Feature Name: vote
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 2, Feature Name: biden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 3, Feature Name: clinton
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 4, Feature Name: president
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 5, Feature Name: election2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 6, Feature Name: election
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 7, Feature Name: would
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 8, Feature Name: hillary
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 9, Feature Name: november
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 10, Feature Name: poll
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 11, Feature Name: debate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 12, Feature Name: donald
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 13, Feature Name: electionday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 14, Feature Name: win
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 15, Feature Name: voting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 16, Feature Name: fishing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 17, Feature Name: fiscal
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 18, Feature Name: joebiden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 19, Feature Name: vs
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 20, Feature Name: think
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 21, Feature Name: usa
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 22, Feature Name: first
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 23, Feature Name: presidential
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 24, Feature Name: joe
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 25, Feature Name: today
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 26, Feature Name: us
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 27, Feature Name: election2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 28, Feature Name: fit
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 29, Feature Name: hillaryclinton
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 30, Feature Name: electionnight
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 31, Feature Name: elections2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 32, Feature Name: america
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 33, Feature Name: retweet
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 34, Feature Name: donaldtrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 35, Feature Name: realdonaldtrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 36, Feature Name: please
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 37, Feature Name: rt
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 38, Feature Name: rbypoll
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 39, Feature Name: 𝐭𝐡𝐢𝐧𝐠𝐬
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 40, Feature Name: going
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 41, Feature Name: polls
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 42, Feature Name: debatenight
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 43, Feature Name: 2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 44, Feature Name: vote2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 45, Feature Name: 2020election
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 46, Feature Name: bidenharris2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 47, Feature Name: held
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 48, Feature Name: trump2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 49, Feature Name: firing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 50, Feature Name: next
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 51, Feature Name: unitedstates
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 52, Feature Name: like
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 53, Feature Name: people
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 54, Feature Name: follow
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 55, Feature Name: fits
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 56, Feature Name: jr
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 57, Feature Name: voted
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 58, Feature Name: pollsunbiased
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 59, Feature Name: kanye
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 60, Feature Name: states
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 61, Feature Name: maga
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 62, Feature Name: debates2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 63, Feature Name: fix
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 64, Feature Name: fixed
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 65, Feature Name: elections
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 66, Feature Name: biden2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 67, Feature Name: electiontwitter
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 68, Feature Name: united
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 69, Feature Name: wins
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 70, Feature Name: fbi
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 71, Feature Name: kamala
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 72, Feature Name: candidate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 73, Feature Name: potus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 74, Feature Name: republicans
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 75, Feature Name: politics
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 76, Feature Name: american
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 77, Feature Name: five
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 78, Feature Name: presidentialelection
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 79, Feature Name: get
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 80, Feature Name: bernie
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 81, Feature Name: generalelection
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 82, Feature Name: presidentialdebate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 83, Feature Name: republican
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 84, Feature Name: want
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 85, Feature Name: democrats
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 86, Feature Name: uselection2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 87, Feature Name: race
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 88, Feature Name: lets
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 89, Feature Name: better
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 90, Feature Name: twitter
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 91, Feature Name: presidentialdebate2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 92, Feature Name: jorgensen4potus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 93, Feature Name: one
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 94, Feature Name: voteearly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 95, Feature Name: uselections2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 96, Feature Name: usaelections2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 97, Feature Name: see
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 98, Feature Name: tonight
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 99, Feature Name: debate2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 100, Feature Name: day
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 101, Feature Name: debates
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 102, Feature Name: fivethirtyeight
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 103, Feature Name: go
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 104, Feature Name: jorgensen
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 105, Feature Name: democrat
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 106, Feature Name: know
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 107, Feature Name: bidenharris
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 108, Feature Name: elecciones2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 109, Feature Name: thanks
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 110, Feature Name: support
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 111, Feature Name: change
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 112, Feature Name: tomorrow
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 113, Feature Name: whos
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 114, Feature Name: could
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 115, Feature Name: many
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 116, Feature Name: winning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 117, Feature Name: kag
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 118, Feature Name: party
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 119, Feature Name: make
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 120, Feature Name: choose
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 121, Feature Name: still
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 122, Feature Name: coronavirus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 123, Feature Name: fnc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 124, Feature Name: 2020elections
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 125, Feature Name: likely
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 126, Feature Name: pence
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 127, Feature Name: clintonvstrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 128, Feature Name: share
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 129, Feature Name: polloftheday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 130, Feature Name: cast
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 131, Feature Name: results
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 132, Feature Name: skynews
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 133, Feature Name: harris
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 134, Feature Name: trumpvsbiden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 135, Feature Name: uselection
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 136, Feature Name: votes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 137, Feature Name: trumppence
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 138, Feature Name: 2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 139, Feature Name: cnn
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 140, Feature Name: corruption
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 141, Feature Name: covid19
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 142, Feature Name: breakingnews
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 143, Feature Name: kanyewest
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 144, Feature Name: votegold
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 145, Feature Name: imwithher
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 146, Feature Name: fireworks
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 147, Feature Name: curious
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 148, Feature Name: running
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 149, Feature Name: flash
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 150, Feature Name: 3rd
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 151, Feature Name: voters
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 152, Feature Name: take
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 153, Feature Name: sunday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 154, Feature Name: supporters
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 155, Feature Name: choice
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 156, Feature Name: let
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 157, Feature Name: msn
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 158, Feature Name: say
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 159, Feature Name: candidates
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 160, Feature Name: rather
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 161, Feature Name: new
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 162, Feature Name: foxnews
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 163, Feature Name: last
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 164, Feature Name: opinion
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 165, Feature Name: trump2020landslidevictory
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 166, Feature Name: voterfraud
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 167, Feature Name: question
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 168, Feature Name: fking
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 169, Feature Name: flights
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 170, Feature Name: flavor
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 171, Feature Name: vp
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 172, Feature Name: myvote2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 173, Feature Name: trump2020landslide
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 174, Feature Name: voteresponsibly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 175, Feature Name: final
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 176, Feature Name: sanders
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 177, Feature Name: right
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 178, Feature Name: im
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 179, Feature Name: trust
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 180, Feature Name: best
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 181, Feature Name: wikileaks
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 182, Feature Name: winner
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 183, Feature Name: letherspeak
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 184, Feature Name: thank
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 185, Feature Name: pls
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 186, Feature Name: believe
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 187, Feature Name: plan
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 188, Feature Name: really
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 189, Feature Name: dont
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 190, Feature Name: americans
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 191, Feature Name: need
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 192, Feature Name: presidentialelection2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 193, Feature Name: news
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 194, Feature Name: trumppence2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 195, Feature Name: uspresidentialelections2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 196, Feature Name: obama
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 197, Feature Name: debates2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 198, Feature Name: comment
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 199, Feature Name: presidency
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 200, Feature Name: feel
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 201, Feature Name: sundayvibes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 202, Feature Name: americadecides2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 203, Feature Name: comey
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 204, Feature Name: general
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 205, Feature Name: help
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 206, Feature Name: year
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 207, Feature Name: real
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 208, Feature Name: anyone
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 209, Feature Name: days
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 210, Feature Name: following
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 211, Feature Name: show
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 212, Feature Name: maga2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 213, Feature Name: kamalaharris
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 214, Feature Name: neither
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 215, Feature Name: debatetonight
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 216, Feature Name: counteveryvote
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 217, Feature Name: countalllegalvotes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 218, Feature Name: gapol
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 219, Feature Name: sleepyjoebiden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 220, Feature Name: time
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 221, Feature Name: comes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 222, Feature Name: flag
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 223, Feature Name: gop
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 224, Feature Name: week
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 225, Feature Name: tuesday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 226, Feature Name: says
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 227, Feature Name: tonights
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 228, Feature Name: vice
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 229, Feature Name: vote2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 230, Feature Name: msnbc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 231, Feature Name: media
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 232, Feature Name: said
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 233, Feature Name: someone
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 234, Feature Name: economy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 235, Feature Name: jorgensen2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 236, Feature Name: either
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 237, Feature Name: left
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 238, Feature Name: god
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 239, Feature Name: doesnt
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 240, Feature Name: pick
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 241, Feature Name: uselections
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 242, Feature Name: gets
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 243, Feature Name: twitterpoll
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 244, Feature Name: voteblue
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 245, Feature Name: travel
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 246, Feature Name: big
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 247, Feature Name: decide
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 248, Feature Name: tell
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 249, Feature Name: fraud
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 250, Feature Name: yall
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 251, Feature Name: mate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 252, Feature Name: freedom
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 253, Feature Name: votehimout
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 254, Feature Name: electionday2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 255, Feature Name: electionresults2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 256, Feature Name: neverbiden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 257, Feature Name: whereisjoe
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 258, Feature Name: end
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 259, Feature Name: nov
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 260, Feature Name: become
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 261, Feature Name: away
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 262, Feature Name: followers
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 263, Feature Name: chance
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 264, Feature Name: live
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 265, Feature Name: campaign
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 266, Feature Name: flip
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 267, Feature Name: votered
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 268, Feature Name: whitehouse
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 269, Feature Name: way
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 270, Feature Name: youre
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 271, Feature Name: sample
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 272, Feature Name: guys
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 273, Feature Name: warren
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 274, Feature Name: berniesanders
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 275, Feature Name: third
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 276, Feature Name: state
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 277, Feature Name: mind
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 278, Feature Name: debatetuesday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 279, Feature Name: covid
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 280, Feature Name: voteearlyday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 281, Feature Name: speakout
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 282, Feature Name: hawkins
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 283, Feature Name: hidinbiden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 284, Feature Name: dde
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 285, Feature Name: hilary
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 286, Feature Name: cant
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 287, Feature Name: gonna
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 288, Feature Name: actually
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 289, Feature Name: planning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 290, Feature Name: dnc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 291, Feature Name: night
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 292, Feature Name: hilaryclinton
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 293, Feature Name: watching
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 294, Feature Name: elections2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 295, Feature Name: whose
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 296, Feature Name: emails
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 297, Feature Name: mikepence
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 298, Feature Name: electoral
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 299, Feature Name: kanye2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 300, Feature Name: ivoted
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 301, Feature Name: sure
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 302, Feature Name: saturdayvibes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 303, Feature Name: creepyunclejoe
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 304, Feature Name: came
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 305, Feature Name: got
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 306, Feature Name: democratic
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 307, Feature Name: two
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 308, Feature Name: come
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 309, Feature Name: fired
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 310, Feature Name: email
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 311, Feature Name: another
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 312, Feature Name: por
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 313, Feature Name: already
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 314, Feature Name: anonymous
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 315, Feature Name: far
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 316, Feature Name: early
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 317, Feature Name: else
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 318, Feature Name: saying
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 319, Feature Name: votebluetosaveamerica
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 320, Feature Name: biden2020landslide
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 321, Feature Name: person
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 322, Feature Name: amyconeybarrettscotus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 323, Feature Name: country
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 324, Feature Name: blackvoicesfortrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 325, Feature Name: sundaymorning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 326, Feature Name: saturdaythoughts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 327, Feature Name: bidens
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 328, Feature Name: ticket
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 329, Feature Name: georgia
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 330, Feature Name: johnson
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 331, Feature Name: honest
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 332, Feature Name: since
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 333, Feature Name: answer
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 334, Feature Name: plz
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 335, Feature Name: debate2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 336, Feature Name: clintons
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 337, Feature Name: corrupt
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 338, Feature Name: investigation
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 339, Feature Name: americafirst
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 340, Feature Name: presidentialpoll
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 341, Feature Name: whats
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 342, Feature Name: everyone
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 343, Feature Name: flipflop
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 344, Feature Name: comments
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 345, Feature Name: free
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 346, Feature Name: flips
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 347, Feature Name: sleepyjoe
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 348, Feature Name: conservative
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 349, Feature Name: stand
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 350, Feature Name: give
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 351, Feature Name: keep
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 352, Feature Name: great
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 353, Feature Name: bidenharrislandslide2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 354, Feature Name: voter
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 355, Feature Name: 2020presidentialdebate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 356, Feature Name: reply
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 357, Feature Name: november3rd
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 358, Feature Name: bidenharris2020tosaveamerica
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 359, Feature Name: thehill
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 360, Feature Name: others
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 361, Feature Name: popular
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 362, Feature Name: good
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 363, Feature Name: might
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 364, Feature Name: sundaythoughts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 365, Feature Name: tuesdayvibes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 366, Feature Name: kaga
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 367, Feature Name: even
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 368, Feature Name: receive
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 369, Feature Name: honestly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 370, Feature Name: dem
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 371, Feature Name: lead
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 372, Feature Name: ask
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 373, Feature Name: try
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 374, Feature Name: fair
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 375, Feature Name: yet
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 376, Feature Name: polling
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 377, Feature Name: breaking
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 378, Feature Name: independent
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 379, Feature Name: love
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 380, Feature Name: americadecides
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 381, Feature Name: elected
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 382, Feature Name: ever
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 383, Feature Name: national
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 384, Feature Name: well
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 385, Feature Name: ok
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 386, Feature Name: chriswallace
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 387, Feature Name: years
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 388, Feature Name: resist
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 389, Feature Name: done
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 390, Feature Name: leave
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 391, Feature Name: yes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 392, Feature Name: sleepy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 393, Feature Name: kag2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 394, Feature Name: rncconvention2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 395, Feature Name: michigan
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 396, Feature Name: votebiden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 397, Feature Name: vous
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 398, Feature Name: blm
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 399, Feature Name: also
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 400, Feature Name: political
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 401, Feature Name: qui
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 402, Feature Name: welcome
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 403, Feature Name: ichooseamerica
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 404, Feature Name: job
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 405, Feature Name: less
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 406, Feature Name: latino
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 407, Feature Name: back
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 408, Feature Name: americas
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 409, Feature Name: mailinballots
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 410, Feature Name: mondaythoughts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 411, Feature Name: demdebate2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 412, Feature Name: loses
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 413, Feature Name: affect
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 414, Feature Name: gagop
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 415, Feature Name: current
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 416, Feature Name: world
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 417, Feature Name: must
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 418, Feature Name: pour
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 419, Feature Name: ou
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 420, Feature Name: trumptrain
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 421, Feature Name: wholl
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 422, Feature Name: file
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 423, Feature Name: todays
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 424, Feature Name: figuring
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 425, Feature Name: friends
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 426, Feature Name: racist
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 427, Feature Name: trumps
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 428, Feature Name: based
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 429, Feature Name: quien
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 430, Feature Name: votar
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 431, Feature Name: former
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 432, Feature Name: electionfinalthoughts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 433, Feature Name: electionpoll
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 434, Feature Name: prediction
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 435, Feature Name: uk
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 436, Feature Name: larger
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 437, Feature Name: government
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 438, Feature Name: wants
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 439, Feature Name: coming
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 440, Feature Name: lose
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 441, Feature Name: eeuu
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 442, Feature Name: decision
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 443, Feature Name: favor
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 444, Feature Name: stein
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 445, Feature Name: nevada
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 446, Feature Name: liberal
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 447, Feature Name: usaelection
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 448, Feature Name: changed
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 449, Feature Name: quick
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 450, Feature Name: usa2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 451, Feature Name: demdebate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 452, Feature Name: wednesdayvibes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 453, Feature Name: beat
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 454, Feature Name: barackobama
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 455, Feature Name: dems
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 456, Feature Name: much
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 457, Feature Name: blacklivesmatter
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 458, Feature Name: team
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 459, Feature Name: wont
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 460, Feature Name: size
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 461, Feature Name: wanna
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 462, Feature Name: four
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 463, Feature Name: fun
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 464, Feature Name: hate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 465, Feature Name: votebidenharristosaveamerica
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 466, Feature Name: de
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 467, Feature Name: obviously
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 468, Feature Name: 4moreyears
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 469, Feature Name: option
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 470, Feature Name: stop
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 471, Feature Name: undecided
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 472, Feature Name: anything
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 473, Feature Name: mondayvibes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 474, Feature Name: le
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 475, Feature Name: watch
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 476, Feature Name: house
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 477, Feature Name: victory
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 478, Feature Name: vaccine
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 479, Feature Name: bidentrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 480, Feature Name: covidー19
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 481, Feature Name: pandemic
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 482, Feature Name: pollthanks
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 483, Feature Name: woman
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 484, Feature Name: wednesday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 485, Feature Name: voice
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 486, Feature Name: feelthebern
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 487, Feature Name: hillary2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 488, Feature Name: nomination
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 489, Feature Name: india
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 490, Feature Name: alright
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 491, Feature Name: votenow
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 492, Feature Name: prefer
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 493, Feature Name: wednesdaywisdom
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 494, Feature Name: figure
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 495, Feature Name: non
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 496, Feature Name: supporter
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 497, Feature Name: uselections2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 498, Feature Name: youll
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 499, Feature Name: uselection2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 500, Feature Name: fikirdesiniz
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 501, Feature Name: important
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 502, Feature Name: votetrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 503, Feature Name: close
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 504, Feature Name: defeat
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 505, Feature Name: halloween
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 506, Feature Name: scotus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 507, Feature Name: rigged
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 508, Feature Name: friday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 509, Feature Name: makeamericagreatagain
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 510, Feature Name: choices
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 511, Feature Name: something
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 512, Feature Name: trying
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 513, Feature Name: presidenttrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 514, Feature Name: fridaymorning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 515, Feature Name: green
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 516, Feature Name: office
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 517, Feature Name: ballot
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 518, Feature Name: point
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 519, Feature Name: wait
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 520, Feature Name: antifa
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 521, Feature Name: idea
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 522, Feature Name: around
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 523, Feature Name: trump2020tosaveamerica
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 524, Feature Name: en
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 525, Feature Name: match
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 526, Feature Name: mail
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 527, Feature Name: ballots
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 528, Feature Name: 2020debate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 529, Feature Name: wallace
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 530, Feature Name: trumpmeltdown
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 531, Feature Name: black
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 532, Feature Name: trending
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 533, Feature Name: bluewave
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 534, Feature Name: decided
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 535, Feature Name: crime
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 536, Feature Name: redwave2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 537, Feature Name: elecciones
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 538, Feature Name: civil
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 539, Feature Name: unidos
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 540, Feature Name: estados
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 541, Feature Name: term
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 542, Feature Name: game
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 543, Feature Name: dumptrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 544, Feature Name: outcome
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 545, Feature Name: democracy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 546, Feature Name: run
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 547, Feature Name: options
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 548, Feature Name: howiehawkins
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 549, Feature Name: hypothetical
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 550, Feature Name: fridayfeeling
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 551, Feature Name: libertarian
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 552, Feature Name: fridayvibes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 553, Feature Name: questions
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 554, Feature Name: saturdaymorning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 555, Feature Name: abc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 556, Feature Name: highriskcovid19
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 557, Feature Name: ive
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 558, Feature Name: lost
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 559, Feature Name: curiosity
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 560, Feature Name: nominee
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 561, Feature Name: trump2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 562, Feature Name: matched
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 563, Feature Name: pres
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 564, Feature Name: potus2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 565, Feature Name: least
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 566, Feature Name: bill
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 567, Feature Name: read
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 568, Feature Name: okay
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 569, Feature Name: jobs
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 570, Feature Name: saturday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 571, Feature Name: wonder
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 572, Feature Name: whon
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 573, Feature Name: forum
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 574, Feature Name: explain
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 575, Feature Name: leading
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 576, Feature Name: nbc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 577, Feature Name: hear
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 578, Feature Name: second
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 579, Feature Name: rid
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 580, Feature Name: cybersecurity
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 581, Feature Name: money
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 582, Feature Name: hard
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 583, Feature Name: para
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 584, Feature Name: presidente
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 585, Feature Name: draintheswamp
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 586, Feature Name: wisely
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 587, Feature Name: long
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 588, Feature Name: getting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 589, Feature Name: choosing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 590, Feature Name: florida
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 591, Feature Name: whod
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 592, Feature Name: que
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 593, Feature Name: college
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 594, Feature Name: mike
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 595, Feature Name: enough
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 596, Feature Name: reason
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 597, Feature Name: uspresident
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 598, Feature Name: seeing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 599, Feature Name: asking
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 600, Feature Name: note
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 601, Feature Name: elect
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 602, Feature Name: fox
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 603, Feature Name: tweet
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 604, Feature Name: presidenciales
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 605, Feature Name: community
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 606, Feature Name: bigger
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 607, Feature Name: may
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 608, Feature Name: west
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 609, Feature Name: true
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 610, Feature Name: trumpwarroom
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 611, Feature Name: teamtrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 612, Feature Name: kayne2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 613, Feature Name: 100
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 614, Feature Name: happen
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 615, Feature Name: looking
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 616, Feature Name: supreme
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 617, Feature Name: upcoming
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 618, Feature Name: man
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 619, Feature Name: uspresidentialdebate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 620, Feature Name: numbers
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 621, Feature Name: bad
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 622, Feature Name: intend
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 623, Feature Name: voteready
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 624, Feature Name: votelikeyourlifedependsonit
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 625, Feature Name: ivotedearly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 626, Feature Name: forget
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 627, Feature Name: retweeet
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 628, Feature Name: large
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 629, Feature Name: never
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 630, Feature Name: behind
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 631, Feature Name: policies
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 632, Feature Name: soulstothepolls
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 633, Feature Name: white
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 634, Feature Name: reelected
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 635, Feature Name: son
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 636, Feature Name: runs
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 637, Feature Name: participate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 638, Feature Name: law
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 639, Feature Name: bluewave2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 640, Feature Name: care
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 641, Feature Name: msnbc2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 642, Feature Name: 46th
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 643, Feature Name: trumpbiden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 644, Feature Name: matter
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 645, Feature Name: whether
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 646, Feature Name: favorite
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 647, Feature Name: currently
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 648, Feature Name: concede
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 649, Feature Name: million
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 650, Feature Name: spread
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 651, Feature Name: folks
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 652, Feature Name: forgot
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 653, Feature Name: sundayfeels
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 654, Feature Name: wednesdaythoughts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 655, Feature Name: agenda
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 656, Feature Name: 1st
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 657, Feature Name: sundayfunday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 658, Feature Name: accept
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 659, Feature Name: quarantine
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 660, Feature Name: biggest
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 661, Feature Name: yanggang
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 662, Feature Name: stayhome
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 663, Feature Name: klobuchar
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 664, Feature Name: democraticdebate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 665, Feature Name: emailscandal
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 666, Feature Name: instead
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 667, Feature Name: 2024
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 668, Feature Name: determined
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 669, Feature Name: defeattheestablishment
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 670, Feature Name: staythefhome
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 671, Feature Name: coronapocolypse
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 672, Feature Name: cdc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 673, Feature Name: life
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 674, Feature Name: wondering
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 675, Feature Name: ends
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 676, Feature Name: supertuesday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 677, Feature Name: tcot
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 678, Feature Name: dropped
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 679, Feature Name: forced
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 680, Feature Name: hey
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 681, Feature Name: tv
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 682, Feature Name: reach
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 683, Feature Name: fightback
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 684, Feature Name: controversy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 685, Feature Name: biased
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 686, Feature Name: constitution
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 687, Feature Name: scandal
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 688, Feature Name: trumpvsclinton
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 689, Feature Name: emailgate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 690, Feature Name: si
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 691, Feature Name: earlyvoting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 692, Feature Name: place
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 693, Feature Name: govote
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 694, Feature Name: told
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 695, Feature Name: minutes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 696, Feature Name: 10
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 697, Feature Name: quién
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 698, Feature Name: myvote
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 699, Feature Name: votarías
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 700, Feature Name: tight
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 701, Feature Name: el
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 702, Feature Name: sexual
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 703, Feature Name: assault
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 704, Feature Name: parties
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 705, Feature Name: nothing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 706, Feature Name: due
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 707, Feature Name: hillarys
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 708, Feature Name: call
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 709, Feature Name: death
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 710, Feature Name: nbcnews
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 711, Feature Name: alsmithdinner
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 712, Feature Name: lot
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 713, Feature Name: thursdaythoughts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 714, Feature Name: van
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 715, Feature Name: 16
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 716, Feature Name: dear
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 717, Feature Name: retweeting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 718, Feature Name: given
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 719, Feature Name: supertuesday2
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 720, Feature Name: almost
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 721, Feature Name: cause
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 722, Feature Name: split
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 723, Feature Name: judge
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 724, Feature Name: different
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 725, Feature Name: possible
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 726, Feature Name: excited
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 727, Feature Name: protests2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 728, Feature Name: las
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 729, Feature Name: african
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 730, Feature Name: ill
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 731, Feature Name: thedemocrats
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 732, Feature Name: fighting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 733, Feature Name: corona
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 734, Feature Name: votebluenomatterwho
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 735, Feature Name: wider
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 736, Feature Name: audience
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 737, Feature Name: voteredtosaveamerica
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 738, Feature Name: total
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 739, Feature Name: fuck
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 740, Feature Name: longer
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 741, Feature Name: joebiden2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 742, Feature Name: official
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 743, Feature Name: ps
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 744, Feature Name: court
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 745, Feature Name: deciding
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 746, Feature Name: supporting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 747, Feature Name: shutupman
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 748, Feature Name: check
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 749, Feature Name: family
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 750, Feature Name: btc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 751, Feature Name: hunterbiden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 752, Feature Name: racism
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 753, Feature Name: war
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 754, Feature Name: old
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 755, Feature Name: january
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 756, Feature Name: ppl
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 757, Feature Name: debatepoll
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 758, Feature Name: find
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 759, Feature Name: citizen
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 760, Feature Name: thing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 761, Feature Name: kim
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 762, Feature Name: hi
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 763, Feature Name: knows
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 764, Feature Name: buffalobills
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 765, Feature Name: ivotedbidenharris
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 766, Feature Name: competition
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 767, Feature Name: confused
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 768, Feature Name: redwave
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 769, Feature Name: cover
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 770, Feature Name: 2020presidentialelection
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 771, Feature Name: made
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 772, Feature Name: uselectionresults
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 773, Feature Name: stay
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 774, Feature Name: thepostelection
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 775, Feature Name: cbsnews
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 776, Feature Name: fakenewsmedia
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 777, Feature Name: put
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 778, Feature Name: chose
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 779, Feature Name: maybe
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 780, Feature Name: thursdaymorning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 781, Feature Name: thursday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 782, Feature Name: thursdayvibes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 783, Feature Name: thetruthcommunity
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 784, Feature Name: fridaymotivation
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 785, Feature Name: russia
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 786, Feature Name: china
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 787, Feature Name: mondaymood
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 788, Feature Name: rbypolls
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 789, Feature Name: didnt
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 790, Feature Name: bernie2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 791, Feature Name: seen
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 792, Feature Name: writein
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 793, Feature Name: berniesanders2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 794, Feature Name: bloomberg2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 795, Feature Name: warren2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 796, Feature Name: doj
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 797, Feature Name: add
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 798, Feature Name: mafia
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 799, Feature Name: flotus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 800, Feature Name: blame
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 801, Feature Name: influence
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 802, Feature Name: increase
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 803, Feature Name: speech
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 804, Feature Name: times
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 805, Feature Name: order
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 806, Feature Name: administration
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 807, Feature Name: worse
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 808, Feature Name: percentage
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 809, Feature Name: progressive
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 810, Feature Name: worst
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 811, Feature Name: vppick
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 812, Feature Name: bloomberg
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 813, Feature Name: votert
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 814, Feature Name: 4th
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 815, Feature Name: supertuesdayresults
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 816, Feature Name: random
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 817, Feature Name: primaries
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 818, Feature Name: top
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 819, Feature Name: looks
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 820, Feature Name: policy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 821, Feature Name: versus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 822, Feature Name: drops
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 823, Feature Name: super
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 824, Feature Name: released
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 825, Feature Name: major
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 826, Feature Name: wanted
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 827, Feature Name: bush
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 828, Feature Name: alive
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 829, Feature Name: nevertrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 830, Feature Name: kaine
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 831, Feature Name: knowing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 832, Feature Name: mondaymotivation
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 833, Feature Name: start
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 834, Feature Name: probably
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 835, Feature Name: hours
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 836, Feature Name: called
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 837, Feature Name: secretary
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 838, Feature Name: everything
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 839, Feature Name: always
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 840, Feature Name: recent
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 841, Feature Name: jillstein
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 842, Feature Name: tax
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 843, Feature Name: 20
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 844, Feature Name: theyre
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 845, Feature Name: trumppence16
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 846, Feature Name: month
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 847, Feature Name: protect
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 848, Feature Name: fight
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 849, Feature Name: kill
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 850, Feature Name: happy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 851, Feature Name: 8th
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 852, Feature Name: vanlife
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 853, Feature Name: women
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 854, Feature Name: men
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 855, Feature Name: lesser
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 856, Feature Name: public
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 857, Feature Name: democraticparty
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 858, Feature Name: video
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 859, Feature Name: imvotingbecause
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 860, Feature Name: odds
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 861, Feature Name: work
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 862, Feature Name: chi
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 863, Feature Name: goes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 864, Feature Name: test
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 865, Feature Name: cbs
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 866, Feature Name: gohillary
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 867, Feature Name: post
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 868, Feature Name: exposed
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 869, Feature Name: anyway
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 870, Feature Name: id
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 871, Feature Name: predict
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 872, Feature Name: putin
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 873, Feature Name: started
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 874, Feature Name: bigly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 875, Feature Name: fucking
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 876, Feature Name: riggedelection
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 877, Feature Name: ago
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 878, Feature Name: ubi
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 879, Feature Name: supported
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 880, Feature Name: supports
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 881, Feature Name: bidenvstrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 882, Feature Name: thinks
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 883, Feature Name: home
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 884, Feature Name: hoy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 885, Feature Name: without
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 886, Feature Name: riots2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 887, Feature Name: makes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 888, Feature Name: giving
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 889, Feature Name: dementia
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 890, Feature Name: mainstream
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 891, Feature Name: accurate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 892, Feature Name: forth
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 893, Feature Name: votetrump2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 894, Feature Name: trumprally
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 895, Feature Name: thoughts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 896, Feature Name: hes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 897, Feature Name: personally
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 898, Feature Name: blue
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 899, Feature Name: genuine
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 900, Feature Name: rnc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 901, Feature Name: sampling
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 902, Feature Name: swing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 903, Feature Name: interested
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 904, Feature Name: thought
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 905, Feature Name: celebrity
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 906, Feature Name: 70
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 907, Feature Name: challenger
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 908, Feature Name: face
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 909, Feature Name: heard
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 910, Feature Name: truth
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 911, Feature Name: chris
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 912, Feature Name: pro
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 913, Feature Name: used
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 914, Feature Name: usadebate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 915, Feature Name: lol
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 916, Feature Name: things
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 917, Feature Name: taxes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 918, Feature Name: feeling
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 919, Feature Name: 12
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 920, Feature Name: guy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 921, Feature Name: matters
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 922, Feature Name: means
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 923, Feature Name: donaldjtrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 924, Feature Name: novemberiscoming
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 925, Feature Name: safe
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 926, Feature Name: hour
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 927, Feature Name: bidenharristosaveamerica
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 928, Feature Name: canada
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 929, Feature Name: correct
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 930, Feature Name: reality
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 931, Feature Name: markets
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 932, Feature Name: bet
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 933, Feature Name: system
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 934, Feature Name: earlyvote
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 935, Feature Name: write
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 936, Feature Name: bc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 937, Feature Name: whoever
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 938, Feature Name: bets
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 939, Feature Name: app
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 940, Feature Name: ir
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 941, Feature Name: fan
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 942, Feature Name: crypto
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 943, Feature Name: electioneve
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 944, Feature Name: congress
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 945, Feature Name: cnnelection
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 946, Feature Name: battlegroundstate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 947, Feature Name: guess
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 948, Feature Name: usaelections
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 949, Feature Name: trumpout
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 950, Feature Name: truly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 951, Feature Name: arizona
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 952, Feature Name: texas
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 953, Feature Name: morning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 954, Feature Name: 3nov
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 955, Feature Name: everyvotecounts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 956, Feature Name: count
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 957, Feature Name: stimulus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 958, Feature Name: refuses
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 959, Feature Name: fake
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 960, Feature Name: pelosi
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 961, Feature Name: fakenews
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 962, Feature Name: narrow
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 963, Feature Name: counted
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 964, Feature Name: votebidenharris2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 965, Feature Name: advance
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 966, Feature Name: able
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 967, Feature Name: saturdaymotivation
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 968, Feature Name: beating
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 969, Feature Name: tuesdaymood
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 970, Feature Name: tuesdaymotivation
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 971, Feature Name: thinking
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 972, Feature Name: kamalaharrisvp
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 973, Feature Name: citizens
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 974, Feature Name: wednesdaymotivation
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 975, Feature Name: thirdparty
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 976, Feature Name: jo
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 977, Feature Name: bidenwarren2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 978, Feature Name: latest
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 979, Feature Name: making
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 980, Feature Name: 2020vision
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 981, Feature Name: ensure
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 982, Feature Name: howie
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 983, Feature Name: effect
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 984, Feature Name: mean
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 985, Feature Name: saturdaymood
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 986, Feature Name: bring
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 987, Feature Name: thats
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 988, Feature Name: shit
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 989, Feature Name: greenparty
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 990, Feature Name: actions
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 991, Feature Name: tulsi
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 992, Feature Name: yang2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 993, Feature Name: assange
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 994, Feature Name: ass
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 995, Feature Name: hillaryforprision
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 996, Feature Name: schools
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 997, Feature Name: hurt
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 998, Feature Name: step
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 999, Feature Name: lies
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1000, Feature Name: allow
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1001, Feature Name: debateheadache
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1002, Feature Name: allegations
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1003, Feature Name: legal
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1004, Feature Name: power
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1005, Feature Name: agree
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1006, Feature Name: ran
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1007, Feature Name: hell
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1008, Feature Name: regardless
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1009, Feature Name: available
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1010, Feature Name: primary
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1011, Feature Name: helping
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1012, Feature Name: virus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1013, Feature Name: voteblue2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1014, Feature Name: presidentpelosi
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1015, Feature Name: trumpvirus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1016, Feature Name: healthcare
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1017, Feature Name: trumptaxes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1018, Feature Name: metoo
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1019, Feature Name: votebluenomatterwho2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1020, Feature Name: sanders2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1021, Feature Name: front
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1022, Feature Name: line
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1023, Feature Name: abstain
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1024, Feature Name: serious
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1025, Feature Name: foreign
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1026, Feature Name: vets
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1027, Feature Name: et
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1028, Feature Name: peace
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1029, Feature Name: neverhillary
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1030, Feature Name: rncincle
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1031, Feature Name: loyal
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1032, Feature Name: clintonkaine
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1033, Feature Name: otherwise
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1034, Feature Name: twitterpolls
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1035, Feature Name: uspolitics
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1036, Feature Name: flood
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1037, Feature Name: motivationmonday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1038, Feature Name: group
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1039, Feature Name: ground
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1040, Feature Name: essentially
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1041, Feature Name: 100k
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1042, Feature Name: uspresidentialelection2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1043, Feature Name: podcast
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1044, Feature Name: crazy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1045, Feature Name: cnbc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1046, Feature Name: absolutely
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1047, Feature Name: sondage
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1048, Feature Name: entre
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1049, Feature Name: survey
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1050, Feature Name: equally
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1051, Feature Name: becomes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1052, Feature Name: garyjohnson
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1053, Feature Name: small
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1054, Feature Name: voteriez
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1055, Feature Name: des
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1056, Feature Name: strongertogether
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1057, Feature Name: history
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1058, Feature Name: send
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1059, Feature Name: forwho
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1060, Feature Name: cheat
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1061, Feature Name: lie
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1062, Feature Name: business
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1063, Feature Name: female
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1064, Feature Name: polltime
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1065, Feature Name: donal
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1066, Feature Name: willwould
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1067, Feature Name: clintonkaine2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1068, Feature Name: usadecides
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1069, Feature Name: debatepolls
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1070, Feature Name: voteretweetwho
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1071, Feature Name: europe
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1072, Feature Name: unitedstatesofamerica
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1073, Feature Name: favourite
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1074, Feature Name: se
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1075, Feature Name: va
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1076, Feature Name: violence
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1077, Feature Name: racial
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1078, Feature Name: ganara
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1079, Feature Name: minute
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1080, Feature Name: nyc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1081, Feature Name: ohio
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1082, Feature Name: flipthesenate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1083, Feature Name: será
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1084, Feature Name: taking
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1085, Feature Name: counts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1086, Feature Name: mondaymorning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1087, Feature Name: criminal
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1088, Feature Name: patriots
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1089, Feature Name: statement
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1090, Feature Name: fans
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1091, Feature Name: late
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1092, Feature Name: indians
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1093, Feature Name: nlcs
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1094, Feature Name: cubs
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1095, Feature Name: lived
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1096, Feature Name: landslide
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1097, Feature Name: forus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1098, Feature Name: hrc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1099, Feature Name: gettysburg
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1100, Feature Name: dmv
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1101, Feature Name: interests
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1102, Feature Name: beliefs
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1103, Feature Name: alone
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1104, Feature Name: talk
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1105, Feature Name: pre
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1106, Feature Name: buttigieg
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1107, Feature Name: ad
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1108, Feature Name: democraticprimary
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1109, Feature Name: yang
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1110, Feature Name: asked
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1111, Feature Name: cnnpolitics
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1112, Feature Name: safely
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1113, Feature Name: mentally
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1114, Feature Name: pretend
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1115, Feature Name: november2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1116, Feature Name: letsgo
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1117, Feature Name: base
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1118, Feature Name: data
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1119, Feature Name: miss
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1120, Feature Name: unofficial
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1121, Feature Name: preferred
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1122, Feature Name: information
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1123, Feature Name: registered
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1124, Feature Name: discuss
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1125, Feature Name: isnt
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1126, Feature Name: trumpout2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1127, Feature Name: duopoly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1128, Feature Name: politicspolls
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1129, Feature Name: voteredtosaveamerica2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1130, Feature Name: uspoli
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1131, Feature Name: projectlincoln
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1132, Feature Name: taken
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1133, Feature Name: george
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1134, Feature Name: stands
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1135, Feature Name: ones
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1136, Feature Name: bidenwarroom
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1137, Feature Name: average
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1138, Feature Name: july27
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1139, Feature Name: booth
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1140, Feature Name: putting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1141, Feature Name: phony
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1142, Feature Name: happening
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1143, Feature Name: three
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1144, Feature Name: nancypelosi
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1145, Feature Name: demconvention
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1146, Feature Name: easy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1147, Feature Name: erictrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1148, Feature Name: dnc2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1149, Feature Name: rnc2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1150, Feature Name: wwg1wwga
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1151, Feature Name: signs
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1152, Feature Name: young
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1153, Feature Name: 50
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1154, Feature Name: republicanparty
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1155, Feature Name: donaldjtrumpjr
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1156, Feature Name: joerogan
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1157, Feature Name: switch
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1158, Feature Name: 60
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1159, Feature Name: population
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1160, Feature Name: los
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1161, Feature Name: trumpknew
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1162, Feature Name: assuming
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1163, Feature Name: replies
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1164, Feature Name: kind
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1165, Feature Name: present
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1166, Feature Name: remember
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1167, Feature Name: nice
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1168, Feature Name: bidensunitingus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1169, Feature Name: trumphascovid
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1170, Feature Name: iowa
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1171, Feature Name: joebidenkamalaharris2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1172, Feature Name: prior
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1173, Feature Name: number
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1174, Feature Name: canadian
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1175, Feature Name: especially
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1176, Feature Name: genuinely
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1177, Feature Name: side
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1178, Feature Name: die
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1179, Feature Name: meetthepress
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1180, Feature Name: bidencrimefamiily
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1181, Feature Name: relationship
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1182, Feature Name: amyconeybarrett
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1183, Feature Name: save
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1184, Feature Name: per
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1185, Feature Name: interesting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1186, Feature Name: dailypolls
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1187, Feature Name: stood
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1188, Feature Name: plus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1189, Feature Name: votersuppression
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1190, Feature Name: bidenharris2020landslide
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1191, Feature Name: hope
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1192, Feature Name: betting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1193, Feature Name: updates
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1194, Feature Name: deserves
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1195, Feature Name: picking
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1196, Feature Name: red
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1197, Feature Name: key
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1198, Feature Name: anti
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1199, Feature Name: sports
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1200, Feature Name: custom
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1201, Feature Name: create
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1202, Feature Name: udda
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1203, Feature Name: popularvote
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1204, Feature Name: open
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1205, Feature Name: confident
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1206, Feature Name: seems
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1207, Feature Name: determine
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1208, Feature Name: başkanlık
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1209, Feature Name: seçim
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1210, Feature Name: kazanacak
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1211, Feature Name: federal
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1212, Feature Name: votebluetoendthenightmare
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1213, Feature Name: memes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1214, Feature Name: shame
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1215, Feature Name: voteare
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1216, Feature Name: trump2020landside
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1217, Feature Name: quite
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1218, Feature Name: battleground
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1219, Feature Name: mi
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1220, Feature Name: contest
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1221, Feature Name: más
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1222, Feature Name: du
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1223, Feature Name: elezioniusa2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1224, Feature Name: california
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1225, Feature Name: south
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1226, Feature Name: 270
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1227, Feature Name: seriously
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1228, Feature Name: trumpvsbidenfight
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1229, Feature Name: trumpcollapse
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1230, Feature Name: pay
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1231, Feature Name: assume
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1232, Feature Name: future
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1233, Feature Name: votefortrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1234, Feature Name: washington
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1235, Feature Name: hello
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1236, Feature Name: democats
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1237, Feature Name: trumpisalaughingstock
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1238, Feature Name: america2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1239, Feature Name: senator
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1240, Feature Name: problem
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1241, Feature Name: carolina
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1242, Feature Name: pennsylvania
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1243, Feature Name: puts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1244, Feature Name: ready
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1245, Feature Name: utah
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1246, Feature Name: etatsunis
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1247, Feature Name: health
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1248, Feature Name: allowed
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1249, Feature Name: monday
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1250, Feature Name: countlegalvotes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1251, Feature Name: counteverylegalvote
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1252, Feature Name: select
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1253, Feature Name: trouble
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1254, Feature Name: dc
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1255, Feature Name: believes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1256, Feature Name: newsmax
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1257, Feature Name: together
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1258, Feature Name: sworn
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1259, Feature Name: protest
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1260, Feature Name: midnight
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1261, Feature Name: exit
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1262, Feature Name: cspan
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1263, Feature Name: combined
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1264, Feature Name: peoples
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1265, Feature Name: clear
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1266, Feature Name: jesus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1267, Feature Name: human
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1268, Feature Name: little
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1269, Feature Name: fridaythoughts
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1270, Feature Name: bidentownhall
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1271, Feature Name: moderator
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1272, Feature Name: libertarianparty
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1273, Feature Name: type
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1274, Feature Name: mondaymotivaton
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1275, Feature Name: tuesdaytip
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1276, Feature Name: disclaimer
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1277, Feature Name: plans
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1278, Feature Name: dare
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1279, Feature Name: shake
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1280, Feature Name: throwing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1281, Feature Name: bidentrumpdebate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1282, Feature Name: closer
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1283, Feature Name: listed
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1284, Feature Name: convention
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1285, Feature Name: throw
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1286, Feature Name: marijuana
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1287, Feature Name: wednesdaymorning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1288, Feature Name: damage
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1289, Feature Name: caused
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1290, Feature Name: repeat
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1291, Feature Name: leader
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1292, Feature Name: mom
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1293, Feature Name: retweets
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1294, Feature Name: fauci
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1295, Feature Name: stateofemergency
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1296, Feature Name: talking
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1297, Feature Name: main
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1298, Feature Name: supremecourt
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1299, Feature Name: continue
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1300, Feature Name: romney
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1301, Feature Name: demexit
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1302, Feature Name: unfit
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1303, Feature Name: obamas
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1304, Feature Name: majority
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1305, Feature Name: 30
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1306, Feature Name: rogan
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1307, Feature Name: thisisus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1308, Feature Name: losewithbiden
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1309, Feature Name: angry
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1310, Feature Name: describe
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1311, Feature Name: nuclear
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1312, Feature Name: podestaemails
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1313, Feature Name: mask
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1314, Feature Name: sell
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1315, Feature Name: evidence
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1316, Feature Name: announcement
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1317, Feature Name: grade
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1318, Feature Name: reopened
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1319, Feature Name: weigh
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1320, Feature Name: meaning
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1321, Feature Name: mostly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1322, Feature Name: play
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1323, Feature Name: reopening
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1324, Feature Name: calling
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1325, Feature Name: 2a
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1326, Feature Name: chances
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1327, Feature Name: name
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1328, Feature Name: surrogate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1329, Feature Name: crooked
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1330, Feature Name: rig
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1331, Feature Name: wasnt
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1332, Feature Name: govt
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1333, Feature Name: jillnothill
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1334, Feature Name: losing
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1335, Feature Name: happens
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1336, Feature Name: greater
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1337, Feature Name: impact
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1338, Feature Name: guilty
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1339, Feature Name: evil
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1340, Feature Name: ur
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1341, Feature Name: rate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1342, Feature Name: promised
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1343, Feature Name: melaniatrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1344, Feature Name: witnesses
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1345, Feature Name: alleged
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1346, Feature Name: legitimate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1347, Feature Name: handling
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1348, Feature Name: using
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1349, Feature Name: election2020results
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1350, Feature Name: recount
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1351, Feature Name: comfortable
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1352, Feature Name: hunter
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1353, Feature Name: totals
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1354, Feature Name: replace
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1355, Feature Name: drop
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1356, Feature Name: senate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1357, Feature Name: ended
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1358, Feature Name: encourage
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1359, Feature Name: protests
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1360, Feature Name: county
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1361, Feature Name: whatever
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1362, Feature Name: supposed
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1363, Feature Name: executive
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1364, Feature Name: reverse
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1365, Feature Name: gain
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1366, Feature Name: electronic
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1367, Feature Name: proudsocialist
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1368, Feature Name: caveman
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1369, Feature Name: crowd
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1370, Feature Name: cured
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1371, Feature Name: absolute
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1372, Feature Name: elizabeth
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1373, Feature Name: wsj
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1374, Feature Name: police
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1375, Feature Name: houston
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1376, Feature Name: cannot
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1377, Feature Name: notmeus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1378, Feature Name: socialdistancingnow
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1379, Feature Name: marchmadness
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1380, Feature Name: lysol
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1381, Feature Name: closetheschools
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1382, Feature Name: worstpresidentinhistory
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1383, Feature Name: canceleverything
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1384, Feature Name: houstonrodeo2020
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1385, Feature Name: berniebros
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1386, Feature Name: pete
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1387, Feature Name: twittervote
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1388, Feature Name: kasich
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1389, Feature Name: f24debate
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1390, Feature Name: cbs12poll
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1391, Feature Name: prime
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1392, Feature Name: towards
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1393, Feature Name: army
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1394, Feature Name: ted
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1395, Feature Name: cruz
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1396, Feature Name: presidentialelections
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1397, Feature Name: confinement
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1398, Feature Name: locked
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1399, Feature Name: shows
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1400, Feature Name: nationally
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1401, Feature Name: totally
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1402, Feature Name: demsinphilly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1403, Feature Name: known
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1404, Feature Name: ahead
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1405, Feature Name: every
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1406, Feature Name: justinbieber
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1407, Feature Name: louisiana
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1408, Feature Name: tweeted
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1409, Feature Name: russian
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1410, Feature Name: trumppence2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1411, Feature Name: grab
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1412, Feature Name: link
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1413, Feature Name: clintontrump
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1414, Feature Name: retweetwho
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1415, Feature Name: outside
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1416, Feature Name: decision2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1417, Feature Name: tape
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1418, Feature Name: trumptapes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1419, Feature Name: uspol
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1420, Feature Name: 2016election
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1421, Feature Name: 2nd
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1422, Feature Name: clintonemails
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1423, Feature Name: weekend
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1424, Feature Name: 11
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1425, Feature Name: badhombres
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1426, Feature Name: votegreen
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1427, Feature Name: smallbusiness
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1428, Feature Name: projections
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1429, Feature Name: les
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1430, Feature Name: secretly
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1431, Feature Name: twoparty
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1432, Feature Name: obamacare
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1433, Feature Name: disqualified
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1434, Feature Name: trip
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1435, Feature Name: isis
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1436, Feature Name: terrorism
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1437, Feature Name: destroy
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1438, Feature Name: murder
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1439, Feature Name: gotta
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1440, Feature Name: wouldyourather
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1441, Feature Name: soundcloud
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1442, Feature Name: till
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1443, Feature Name: pudieras
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1444, Feature Name: markcuban
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1445, Feature Name: hillaryforprison
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1446, Feature Name: previous
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1447, Feature Name: simple
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1448, Feature Name: raidernation
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1449, Feature Name: tuesdays
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1450, Feature Name: earthquake
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1451, Feature Name: havewill
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1452, Feature Name: evils
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1453, Feature Name: six
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1454, Feature Name: students
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1455, Feature Name: hoping
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1456, Feature Name: forward
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1457, Feature Name: votolatino
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1458, Feature Name: sondaggiveloci
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1459, Feature Name: damerica
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1460, Feature Name: uniti
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1461, Feature Name: stati
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1462, Feature Name: degli
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1463, Feature Name: youtube
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1464, Feature Name: uswahl2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1465, Feature Name: philadelphia
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1466, Feature Name: series
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1467, Feature Name: eleccioneseeuu2016
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1468, Feature Name: ustedes
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1469, Feature Name: daprès
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1470, Feature Name: américaine
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1471, Feature Name: voté
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1472, Feature Name: votedwill
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1473, Feature Name: maga3x
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1474, Feature Name: attention
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1475, Feature Name: ya
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1476, Feature Name: gente
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1477, Feature Name: este
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1478, Feature Name: predicting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1479, Feature Name: próximo
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1480, Feature Name: trumpclinton
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1481, Feature Name: switched
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1482, Feature Name: issues
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1483, Feature Name: tallying
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1484, Feature Name: negan
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1485, Feature Name: thewalkingdead
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1486, Feature Name: twd
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1487, Feature Name: everyones
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1488, Feature Name: willdid
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1489, Feature Name: max
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1490, Feature Name: nov8
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1491, Feature Name: thus
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1492, Feature Name: podestaemails24
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1493, Feature Name: recently
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1494, Feature Name: info
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1495, Feature Name: bless
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1496, Feature Name: sporting
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1497, Feature Name: necessarily
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1498, Feature Name: alex
+  Inferred Type: Binary, Empirical Cardinality: 2, Optionality: 0
+Feature Index: 1499, Feature Name: class
+  Inferred Type: Categorical, Empirical Cardinality: 2, Optionality: 0
+Original Dataset Dimension: 22936 x 1500
+Binary Dataset Dimension: 22936 x 1501
+Dataset Dimensions: 22936 x 1499 x 2
+Starting Optimization
+Time: 0.0409109, Objective: [0.135019, 0.135019], Boundary: 0, Graph Size: 1, Queue Size: 0
+Optimization Complete
+Optimization Complete
+Training Duration: 0.049 seconds
+Number of Iterations: 0 iterations
+Size of Graph: 1 nodes
+Training Duration (user time): 0 seconds
+Training Duration (system time)0 seconds
+Maximim memory: 0 kB
+Number of swaps0
+Size of Search Graph: 1 nodes
+Objective Boundary: [0.135019, 0.135019]
+Optimality Gap: 0
+Models Generated: 1
+Loss: 0.0850192
+Complexity: 0.05
+Storing Models in: ./data/decision-trees/2020-10-tfidf-50000-gosdt-model.json
+gosdt reported successful execution
+training completed. 0.000/0.000/0.049 (user, system, wall), mem=0 MB
+bounds: [0.135019..0.135019] (0.000000) loss=0.085019, iterations=0

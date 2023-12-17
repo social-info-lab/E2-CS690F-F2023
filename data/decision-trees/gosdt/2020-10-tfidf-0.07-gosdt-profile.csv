@@ -1,0 +1,2 @@
+iterations,time,lowerbound,upperbound,graph_size,queue_size,explore,exploit
+1,0.0225023,0.14463,0.14463,1,0,1,0

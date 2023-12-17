@@ -1,0 +1,16 @@
+Query: !election day AND voting for
+Accuracy: 0.937625754527163
+F1: 0.31001589825119236
+Precision: 0.8904109589041096
+Recall: 0.18768046198267566
+Confusion Matrix: 
+[[12853    24]
+ [  844   195]]
+Query: !voting for
+Accuracy: 0.06237424547283702
+F1: 0.11454940282301845
+Precision: 0.06161933270059137
+Recall: 0.8123195380173244
+Confusion Matrix: 
+[[   24 12853]
+ [  195   844]]

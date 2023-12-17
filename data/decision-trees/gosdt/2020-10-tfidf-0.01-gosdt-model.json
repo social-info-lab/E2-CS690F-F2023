@@ -1,0 +1,21 @@
+[
+  {
+    "false": {
+      "complexity": 0.009999999776482582,
+      "loss": 0.04321938380599022,
+      "name": "class",
+      "prediction": 0
+    },
+    "feature": 15,
+    "name": "voting",
+    "reference": "True",
+    "relation": "==",
+    "true": {
+      "complexity": 0.009999999776482582,
+      "loss": 0.011549122631549835,
+      "name": "class",
+      "prediction": 1
+    },
+    "type": "categorical"
+  }
+]

@@ -1,0 +1,8 @@
+gosdt reported successful execution
+training completed. 0.000/0.000/0.065 (user, system, wall), mem=0 MB
+bounds: [0.114649..0.114649] (0.000000) loss=0.074649, iterations=0
+if true then:
+    predicted class: 0
+    misclassification penalty: 0.075
+    complexity penalty: 0.04
+if true then:

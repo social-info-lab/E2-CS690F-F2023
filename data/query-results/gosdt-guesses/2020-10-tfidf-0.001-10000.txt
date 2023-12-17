@@ -1,0 +1,24 @@
+Query: vote for AND !voting for AND win
+Accuracy: 0.9250503018108652
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12873     4]
+ [ 1039     0]]
+Query: !den AND vote for AND !win
+Accuracy: 0.9232538085656798
+F1: 0.05319148936170213
+Precision: 0.33707865168539325
+Recall: 0.028873917228103944
+Confusion Matrix: 
+[[12818    59]
+ [ 1009    30]]
+Query: !vote for AND !wh
+Accuracy: 0.16800804828973842
+F1: 0.013966956225515243
+Precision: 0.007661403344856582
+Recall: 0.07892204042348412
+Confusion Matrix: 
+[[ 2256 10621]
+ [  957    82]]

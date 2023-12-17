@@ -1,0 +1,14 @@
+Training set size: 
+  rows:19482, cols:200
+Memory size train set: 
+  dense: 31.171328 mb
+  Sparse: 0.236658 mb
+
+model.config:
+ {'regularization': 0.03, 'depth_budget': 5, 'time_limit': 7200, 'uncertainty_tolerance': 0.2, 'worker_limit': 1, 'stack_limit': 0, 'verbose': False, 'diagnostics': True, 'model': './data/decision-trees/gosdt/2020-10-tfidf-0.03-gosdt-model.json', 'profile': './data/decision-trees/gosdt/2020-10-tfidf-0.03-gosdt-profile.csv'}
+
+model.tree:
+ if true then:
+    predicted class: 0
+    misclassification penalty: 0.075
+    complexity penalty: 0.03

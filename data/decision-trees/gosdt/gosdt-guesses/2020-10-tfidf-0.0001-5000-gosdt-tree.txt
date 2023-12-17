@@ -1,0 +1,46 @@
+Training set size: 
+  rows:48708, cols:16
+
+ num_attr: 5000, roes_subset_prec: 0.05
+Memory size train set: 
+  dense: 1947.930464 mb
+  Sparse: 4.197373 mb
+
+model.config:
+ {'regularization': 0.0001, 'time_limit': 900, 'warm_LB': True, 'path_to_labels': '\\tmp\\warm_lb_labels\\warm_label.tmp', 'worker_limit': 1, 'stack_limit': 0, 'verbose': True, 'diagnostics': True, 'model': './data/decision-trees/gosdt/gosdt-guesses/2020-10-tfidf-0.0001-5000-gosdt-model.json', 'profile': './data/decision-trees/gosdt/gosdt-guesses/2020-10-tfidf-0.0001-gosdt-profile.csv'}
+
+model.tree:
+ if 3rd<=0.5 = 1 and election<=0.5 = 1 and updates<=0.5 = 1 and voting<=0.5 = 1 then:
+    predicted class: 0
+    misclassification penalty: 0.027
+    complexity penalty: 0.0
+
+else if 3rd<=0.5 = 1 and election<=0.5 = 1 and updates<=0.5 != 1 and voting<=0.5 = 1 then:
+    predicted class: 1
+    misclassification penalty: 0.0
+    complexity penalty: 0.0
+
+else if 3rd<=0.5 = 1 and election<=0.5 != 1 and voting<=0.5 = 1 and win<=0.5 = 1 then:
+    predicted class: 0
+    misclassification penalty: 0.002
+    complexity penalty: 0.0
+
+else if 3rd<=0.5 = 1 and election<=0.5 != 1 and voting<=0.5 = 1 and win<=0.5 != 1 then:
+    predicted class: 1
+    misclassification penalty: 0.002
+    complexity penalty: 0.0
+
+else if 3rd<=0.5 != 1 and voting<=0.5 = 1 then:
+    predicted class: 1
+    misclassification penalty: 0.001
+    complexity penalty: 0.0
+
+else if voting<=0.5 != 1 and wh<=0.5 = 1 then:
+    predicted class: 0
+    misclassification penalty: 0.003
+    complexity penalty: 0.0
+
+else if voting<=0.5 != 1 and wh<=0.5 != 1 then:
+    predicted class: 1
+    misclassification penalty: 0.003
+    complexity penalty: 0.0

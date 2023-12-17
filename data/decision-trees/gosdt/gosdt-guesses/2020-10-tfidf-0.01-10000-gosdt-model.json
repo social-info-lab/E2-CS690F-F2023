@@ -1,0 +1,21 @@
+[
+  {
+    "false": {
+      "complexity": 0.009999999776482582,
+      "loss": 0.0021351727191358805,
+      "name": "class",
+      "prediction": 1
+    },
+    "feature": 12,
+    "name": "voting for<=0.5",
+    "reference": 1,
+    "relation": "==",
+    "true": {
+      "complexity": 0.009999999776482582,
+      "loss": 0.04814404249191284,
+      "name": "class",
+      "prediction": 0
+    },
+    "type": "integral"
+  }
+]

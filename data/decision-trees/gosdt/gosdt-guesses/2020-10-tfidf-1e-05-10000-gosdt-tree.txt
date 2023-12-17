@@ -1,0 +1,101 @@
+Training set size: 
+  rows:48708, cols:17
+
+ num_attr: 10000, roes_subset_prec: 0.05
+Memory size train set: 
+  dense: 3896.250464 mb
+  Sparse: 4.541328 mb
+
+model.config:
+ {'regularization': 1e-05, 'time_limit': 900, 'warm_LB': True, 'path_to_labels': '\\tmp\\warm_lb_labels\\warm_label.tmp', 'worker_limit': 1, 'stack_limit': 0, 'verbose': True, 'allow_small_reg': True, 'diagnostics': True, 'model': './data/decision-trees/gosdt/gosdt-guesses/2020-10-tfidf-1e-05-10000-gosdt-model.json', 'profile': './data/decision-trees/gosdt/gosdt-guesses/2020-10-tfidf-1e-05-gosdt-profile.csv'}
+
+model.tree:
+ if den<=0.5 = 1 and large<=0.5 = 1 and poll<=0.5 = 1 and president<=0.5 = 1 and vote right<=0.5 = 1 and voting<=0.5 = 1 and win<=0.5 = 1 then:
+    predicted class: 0
+    misclassification penalty: 0.011
+    complexity penalty: 0.0
+
+else if den<=0.5 = 1 and large<=0.5 = 1 and poll<=0.5 = 1 and president<=0.5 = 1 and vote right<=0.5 != 1 and voting<=0.5 = 1 and win<=0.5 = 1 then:
+    predicted class: 1
+    misclassification penalty: 0.0
+    complexity penalty: 0.0
+
+else if den<=0.5 = 1 and large<=0.5 = 1 and poll<=0.5 != 1 and president<=0.5 = 1 and vote for<=0.5 = 1 and voting<=0.5 = 1 and win<=0.5 = 1 then:
+    predicted class: 0
+    misclassification penalty: 0.004
+    complexity penalty: 0.0
+
+else if den<=0.5 = 1 and large<=0.5 = 1 and poll<=0.5 != 1 and president<=0.5 = 1 and vote for<=0.5 != 1 and voting<=0.5 = 1 and win<=0.5 = 1 then:
+    predicted class: 1
+    misclassification penalty: 0.0
+    complexity penalty: 0.0
+
+else if den<=0.5 = 1 and large<=0.5 = 1 and president<=0.5 = 1 and voting<=0.5 != 1 and wh<=0.5 = 1 and win<=0.5 = 1 then:
+    predicted class: 0
+    misclassification penalty: 0.002
+    complexity penalty: 0.0
+
+else if den<=0.5 = 1 and large<=0.5 = 1 and president<=0.5 = 1 and voting<=0.5 != 1 and wh<=0.5 != 1 and win<=0.5 = 1 then:
+    predicted class: 1
+    misclassification penalty: 0.002
+    complexity penalty: 0.0
+
+else if den<=0.5 = 1 and election<=0.5 = 1 and large<=0.5 = 1 and president<=0.5 = 1 and win<=0.5 != 1 then:
+    predicted class: 0
+    misclassification penalty: 0.002
+    complexity penalty: 0.0
+
+else if den<=0.5 = 1 and election<=0.5 != 1 and large<=0.5 = 1 and president<=0.5 = 1 and win<=0.5 != 1 then:
+    predicted class: 1
+    misclassification penalty: 0.001
+    complexity penalty: 0.0
+
+else if den<=0.5 != 1 and large<=0.5 = 1 and president<=0.5 = 1 and voting<=0.5 = 1 and win<=0.5 = 1 then:
+    predicted class: 0
+    misclassification penalty: 0.003
+    complexity penalty: 0.0
+
+else if den<=0.5 != 1 and large<=0.5 = 1 and president<=0.5 = 1 and voting<=0.5 != 1 and win<=0.5 = 1 then:
+    predicted class: 1
+    misclassification penalty: 0.0
+    complexity penalty: 0.0
+
+else if den<=0.5 != 1 and election day<=0.5 = 1 and large<=0.5 = 1 and president<=0.5 = 1 and win<=0.5 != 1 then:
+    predicted class: 0
+    misclassification penalty: 0.001
+    complexity penalty: 0.0
+
+else if den<=0.5 != 1 and election day<=0.5 != 1 and large<=0.5 = 1 and president<=0.5 = 1 and win<=0.5 != 1 then:
+    predicted class: 1
+    misclassification penalty: 0.0
+    complexity penalty: 0.0
+
+else if large<=0.5 != 1 and president<=0.5 = 1 then:
+    predicted class: 1
+    misclassification penalty: 0.001
+    complexity penalty: 0.0
+
+else if large<=0.5 = 1 and poll<=0.5 = 1 and president<=0.5 != 1 and voting for<=0.5 = 1 and win<=0.5 = 1 then:
+    predicted class: 0
+    misclassification penalty: 0.002
+    complexity penalty: 0.0
+
+else if large<=0.5 = 1 and poll<=0.5 = 1 and president<=0.5 != 1 and voting for<=0.5 != 1 and win<=0.5 = 1 then:
+    predicted class: 1
+    misclassification penalty: 0.0
+    complexity penalty: 0.0
+
+else if large<=0.5 = 1 and poll<=0.5 != 1 and president<=0.5 != 1 and win<=0.5 = 1 then:
+    predicted class: 1
+    misclassification penalty: 0.002
+    complexity penalty: 0.0
+
+else if large<=0.5 = 1 and president<=0.5 != 1 and win<=0.5 != 1 then:
+    predicted class: 1
+    misclassification penalty: 0.001
+    complexity penalty: 0.0
+
+else if large<=0.5 != 1 and president<=0.5 != 1 then:
+    predicted class: 1
+    misclassification penalty: 0.0
+    complexity penalty: 0.0

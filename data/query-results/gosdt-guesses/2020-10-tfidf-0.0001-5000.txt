@@ -1,0 +1,32 @@
+Query: 3rd AND election AND !updates AND voting
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: 3rd AND !election AND voting AND !win
+Accuracy: 0.9259126185685542
+F1: 0.017159199237368923
+Precision: 0.9
+Recall: 0.008662175168431183
+Confusion Matrix: 
+[[12876     1]
+ [ 1030     9]]
+Query: !3rd AND voting
+Accuracy: 0.9330267318194884
+F1: 0.37449664429530205
+Precision: 0.6186252771618626
+Recall: 0.2685274302213667
+Confusion Matrix: 
+[[12705   172]
+ [  760   279]]
+Query: !voting AND !wh
+Accuracy: 0.17253521126760563
+F1: 0.010653836240226824
+Precision: 0.005849056603773585
+Recall: 0.059672762271414825
+Confusion Matrix: 
+[[ 2339 10538]
+ [  977    62]]

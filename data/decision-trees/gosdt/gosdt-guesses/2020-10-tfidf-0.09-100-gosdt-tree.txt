@@ -1,0 +1,16 @@
+Training set size: 
+  rows:9740, cols:5
+
+ num_attr: 100, roes_subset_prec: 0.01
+Memory size train set: 
+  dense: 7.792128 mb
+  Sparse: 0.092283 mb
+
+model.config:
+ {'regularization': 0.09, 'time_limit': 900, 'warm_LB': True, 'path_to_labels': '\\tmp\\warm_lb_labels\\warm_label.tmp', 'worker_limit': 1, 'stack_limit': 0, 'verbose': True, 'allow_small_reg': True, 'diagnostics': True, 'model': './data/decision-trees/gosdt/gosdt-guesses/2020-10-tfidf-0.09-100-gosdt-model.json', 'profile': './data/decision-trees/gosdt/gosdt-guesses/2020-10-tfidf-0.09-gosdt-profile.csv'}
+
+model.tree:
+ if true then:
+    predicted class: 0
+    misclassification penalty: 0.075
+    complexity penalty: 0.09

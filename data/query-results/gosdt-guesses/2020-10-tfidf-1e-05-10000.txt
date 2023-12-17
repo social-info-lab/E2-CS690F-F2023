@@ -1,0 +1,88 @@
+Query: den AND large AND poll AND president AND !vote right AND voting AND win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: den AND large AND !poll AND president AND !vote for AND voting AND win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: den AND large AND president AND !voting AND !wh AND win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: den AND !election AND large AND president AND !win
+Accuracy: 0.9252658810002874
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12876     1]
+ [ 1039     0]]
+Query: !den AND large AND president AND !voting AND win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: !den AND !election day AND large AND president AND !win
+Accuracy: 0.9253377407300949
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12877     0]
+ [ 1039     0]]
+Query: !large AND president
+Accuracy: 0.9289307272204657
+F1: 0.3349024882313383
+Precision: 0.5558035714285714
+Recall: 0.23965351299326276
+Confusion Matrix: 
+[[12678   199]
+ [  790   249]]
+Query: large AND poll AND !president AND !voting for AND win
+Accuracy: 0.9252658810002874
+F1: 0.0
+Precision: 0.0
+Recall: 0.0
+Confusion Matrix: 
+[[12876     1]
+ [ 1039     0]]
+Query: large AND !poll AND !president AND win
+Accuracy: 0.9253377407300949
+F1: 0.0038350910834132313
+Precision: 0.5
+Recall: 0.0019249278152069298
+Confusion Matrix: 
+[[12875     2]
+ [ 1037     2]]
+Query: large AND !president AND !win
+Accuracy: 0.9239005461339466
+F1: 0.023963133640552994
+Precision: 0.2826086956521739
+Recall: 0.012512030798845043
+Confusion Matrix: 
+[[12844    33]
+ [ 1026    13]]
+Query: !large AND !president
+Accuracy: 0.0726501868352975
+F1: 0.10722933241093048
+Precision: 0.05776684555754323
+Recall: 0.7459095283926853
+Confusion Matrix: 
+[[  236 12641]
+ [  264   775]]
